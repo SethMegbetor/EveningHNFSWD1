@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
     <title>Project 3</title>
   </head>
   <body>
@@ -11,12 +13,12 @@
       <div class="container">
         <div class="row">
           <div class="four columns">
-            <img src="./img/logo.png" id="logo" alt="" srcset="" />
+            <img src="./img/logo.jpg" id="logo" alt="" srcset="" />
           </div>
           <div class="two columns u-pull-right">
             <ul>
               <li class="submenu">
-                <img src="./img" id="img-cart" alt="" srcset="" />
+                <img src="./img/cart.png" id="img-cart" alt="" srcset="" />
 
                 <div id="shopping-cart">
                   <table id="cart-content" class="u-full-width">
@@ -29,6 +31,9 @@
                     </thead>
                     <tbody></tbody>
                   </table>
+                  <a href="#" id="clear-cart" class="button u-full-width"
+                    >Clear Cart</a
+                  >
                 </div>
               </li>
             </ul>
@@ -36,5 +41,373 @@
         </div>
       </div>
     </header>
+    <!-- start of hero section -->
+
+    <div id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="six columns">
+            <div class="hero-content">
+              <h2>Learn Something Today</h2>
+              <p>Special Offer, any course GH₵15</p>
+              <form action="#" id="search" method="POST" class="form">
+                <input
+                  type="text"
+                  class="u-full-width"
+                  placeholder="What Do You Want To Learn?"
+                  id="search-course"
+                />
+                <input
+                  type="submit"
+                  id="submit-search-course"
+                  class="submit-search-course"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of hero section -->
+
+    <!-- for main bar-->
+    <div class="main-bar">
+      <div class="container">
+        <div class="row">
+          <div class="four columns icon icon1">
+            <p>20,000 online courses <br />Learn new skills</p>
+          </div>
+          <div class="four columns icon icon2">
+            <p>
+              Expert Instructors <br />
+              Learn with different teaching styles
+            </p>
+          </div>
+          <div class="four columns icon icon3">
+            <p>
+              Lifetime access <br />
+              learn at your own pace
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div id="courses-list" class="container">
+      <h1 class="heading" id="heading">Online Courses</h1>
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+      </div>
+      <!-- .row -->
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+      </div>
+      <!-- .row -->
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+      </div>
+      <!-- .row -->
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img
+              src="./img/course1.jpg"
+              class="course-image u-full-width"
+              alt=""
+              srcset=""
+            />
+            <div class="info-card">
+              <h4>HTML5, CSS3, Javascript for beginners</h4>
+              <p>5p1d3r hu55l3</p>
+              <img src="./img/stars.png" alt="" />
+              <p class="price">GH₵ <span class="u-pull-right">GH₵15</span></p>
+              <a
+                href="#"
+                class="u-full-width button-primary button input add-to-cart"
+                data-id="1"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <!-- .card -->
+        </div>
+      </div>
+      <!-- .row -->
+    </div>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <nav id="primary" class="menu">
+              <a href="" class="link">For Business</a>
+              <a href="" class="link">Become an instructor</a>
+              <a href="" class="link">Mobile Applications</a>
+              <a href="" class="link">Support</a>
+              <a href="" class="link">Help</a>
+            </nav>
+          </div>
+          <div class="four columns">
+            <nav id="secondary" class="menu">
+              <a href="" class="link">About Us</a>
+              <a href="" class="link">Work With Us</a
+              ><a href="" class="link">Blog</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
